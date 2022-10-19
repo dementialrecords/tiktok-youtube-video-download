@@ -1,6 +1,6 @@
 <?php
   if ($_GET['url']) {
-    $url = "http://okdeveloper.ru/yt/?url=" . $_GET['url'];
+    $url = "https://noembed.com/embed?url=" . $_GET['url'];
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
